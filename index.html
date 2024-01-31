@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Moustafa Hassan</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-logo" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+      <div class="header">
+        <label for="menu" class="burger__menu">
+          <div class="burger__menu-bar"></div>
+          <div class="burger__menu-bar"></div>
+          <div class="burger__menu-bar"></div>
+        </label>
+        <input type="checkbox" id="menu" class="burger__menu-checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__Bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__Skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__Media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__Projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__My-clients"
+                >My clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__Contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </div>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'M A Passionate Sofware Engineer
+          </h1>
+          <p class="bio__objective">
+            Hi, I'm <span class="bio__name"> Moustafa Hassan </span>, a
+            Front-End Developer and Electrical Engineer. Passionate about
+            merging precision and creativity, I craft engaging digital
+            experiences. Explore my work to see the synergy of technology and
+            design you can conect with me on
+            <a target="_blank" href="#" class="bio__facebook">Facebook</a>
+            <a
+              href="https://twitter.com/Moustafa_H_"
+              target="_blank"
+              class="bio__twitter"
+              >Twitter</a
+            >
+            <a
+              href="https://www.linkedin.com/in/moustafa-hassan-6183a926b/"
+              class="bio__linkdin"
+              target="_blank"
+              >Linkdin</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-links">Say Hi</a>
+          <a href="./Moustafa-Hassan-CV.pdf" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic2Q.png"
+            alt="moustafa hassan"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skill section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">4 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React Testing library</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video
+          class="media__video"
+          poster="./images/WhatsApp Image 2024-01-27 at 15.03.32_a03c8294.jpg"
+          controls
+        >
+          <source
+            src="./WhatsApp Video 2023-07-17 at 02.03.25.mp4"
+            type="video/mp4"
+          />
+
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="projects" class="projecs section">
+        <h2 class="h2-heading">MY FEATURED <br />PROJECTS</h2>
+        <div class="projects__main">
+          <img
+            class="projects__image"
+            src="./images/project-1.jpg"
+            alt="quran tab"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Quran Tab <br />
+              Extension
+            </h3>
+            <p class="projects__descraption">
+              Quran Tap is an Islamic new tab page that will keep you inspired
+              by a verse form the quran every time you open a new tab that helps
+              you achieve your "khatma" and keeps you connectedd with the words
+              of Allah
+            </p>
+            <a class="projects__links" href="#" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a class="projects__links" href="#" target="_blank">Edge Link</a>
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Quran Station <br />
+              Extension
+            </h3>
+            <p class="projects__descraption">
+              Quran Tap is an Islamic new tab page that will keep you inspired
+              by a verse form the quran every time you open a new tab that helps
+              you achieve your "khatma" and keeps you connectedd with the words
+              of Allah
+            </p>
+            <a class="projects__links" href="#" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a class="projects__links" href="#" target="_blank">Edge Link</a>
+            <span>-</span>
+            <a class="projects__links" href="#" target="_blank">firefox</a>
+          </div>
+          <img
+            class="projects__image"
+            src="./images/project-2.jpg"
+            alt="quran Station"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">What My <br />Clients Says.</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit a accusamus dignissimos laboriosam suscipit, aliquam
+              quisquavoluptas accusamus ipsa consectetur.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+              fugiat totam rerum. Nobis, corrupti aperiam nulla ea enim ab quam
+              distinctio exercitationem animi autem praesentium eaque debitis
+              quas laborum aut?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__descrption">
+            Have a question, project idea, or just want to say hello? I'd love
+            to hear from you! Feel free to drop me an email, and I'll get back
+            to you as soon as possible.
+          </p>
+
+          <a class="contact__email" href="mailto:moustafahassan5544@gmail.com"
+            >moustafahassan5544@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a href="#" class="contact__social">
+              <img src="./images/brand/facebook.svg" alt="facebook.svg" />
+            </a>
+            <a
+              href="https://twitter.com/Moustafa_H_"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="./images/brand/twitter.svg" alt="twitter.svg" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/moustafa-hassan-6183a926b/"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="linkdin.svg" />
+            </a>
+            <a
+              href="https://www.instagram.com/moustafa__hassan_/"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+            </a>
+            <a
+              href="https://github.com/MoustafaHassan11"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="./images/brand/github.svg" alt="github.svg" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/youtube.svg" alt="youtube.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__form-contant">
+          <h2 class="h2-heading">Lets work <br />Togther</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="FullName"
+                required
+                name="fullname"
+              />
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                pattern="(010|011|012|015)[0-9]{8}"
+                required
+                name="telephone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input type="submit" value="Send Message" class="contact__button" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">Ⓒ 2024 by Moustafa Hassan</footer>
+    </div>
+  </body>
+</html>
